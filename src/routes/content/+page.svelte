@@ -1,9 +1,10 @@
 <script>
 let  title =$state("Content");
 </script>
-
-<h1>{title} </h1>
-<p>Welcome to my home page</p>
+<titlepage>
+    <h1>{title} </h1>
+    <p>Welcome to my Content page</p>
+</titlepage>
 <nav>
     <a href="/">Home</a>
     <a href="/about">About</a>

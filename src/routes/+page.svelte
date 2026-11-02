@@ -1,16 +1,23 @@
-<script>
-let  title =$state("Home");
-import '../styles/global.css';
-</script>
-<titlepage>
-    <h1>{title} </h1>
-    <p>Welcome to my home page</p>
-</titlepage>
+svelte 
 
+<script> 
 
-<nav>
-    <a href="/">Home</a>
-    <a href="/about">About</a>
-    <a href="content">Content</a>
-    
+   let title = $state("Home"); 
+
+</script> 
+
+ 
+
+<h1>{title}</h1> 
+
+<p>Welcome to the Home page!</p> 
+
+<nav> 
+
+  <a href="/">Home</a> |  
+
+  <a href="/about">About</a> |  
+
+  <a href="/content">Content</a> 
+
 </nav>

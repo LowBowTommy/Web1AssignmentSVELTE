@@ -1,23 +1,6 @@
-svelte 
+<h1>Welcome to the Home page!</h1>
 
-<script> 
-
-   let title = $state("Home"); 
-
-</script> 
-
- 
-
-<h1>{title}</h1> 
-
-<p>Welcome to the Home page!</p> 
-
-<nav> 
-
-  <a href="/">Home</a> |  
-
-  <a href="/about">About</a> |  
-
-  <a href="/content">Content</a> 
-
-</nav>
+<p>
+    Discover interesting quotes, explore different
+    categories and find inspiration.
+</p>

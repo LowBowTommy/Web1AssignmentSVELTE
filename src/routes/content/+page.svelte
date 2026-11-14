@@ -1,21 +1,7 @@
-svelte 
+<h1>This is the Content page!</h1>
+  <p>Content</p> 
 
-<script> 
+<footer>
+Niqolai Utanga Paehua
 
-let title = $state("Content"); 
-
-</script> 
-
-<h1>{title}</h1> 
-
-<p>This is the Content page!</p> 
-
-<nav> 
-
-  <a href="/">Home</a> |  
-
-  <a href="/about">About</a> |  
-
-  <a href="/content">Content</a> 
-
-</nav>
+</footer>

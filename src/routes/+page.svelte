@@ -1,23 +1,38 @@
-svelte 
+<section class="hero">
+    <h1>Welcome to QuoteHub</h1>
 
-<script> 
+    <p class="subtitle">
+        Explore famous quotes from great thinkers, leaders,
+        writers and visionaries throughout history.
+    </p>
 
-   let title = $state("Home"); 
+    <div class="hero-buttons">
+        <a href="/quotes" class="button">Browse Quotes</a>
+        <a href="/about" class="button secondary">Learn More</a>
+    </div>
+</section>
 
-</script> 
+<section class="features">
 
- 
+    <div class="feature-card">
+        <h2>Inspiration</h2>
+        <p>
+            Discover quotes that motivate and encourage personal growth.
+        </p>
+    </div>
 
-<h1>{title}</h1> 
+    <div class="feature-card">
+        <h2>Wisdom</h2>
+        <p>
+            Explore timeless advice from influential thinkers.
+        </p>
+    </div>
 
-<p>Welcome to the Home page!</p> 
+    <div class="feature-card">
+        <h2>Favorites</h2>
+        <p>
+            Save the quotes that resonate with you the most.
+        </p>
+    </div>
 
-<nav> 
-
-  <a href="/">Home</a> |  
-
-  <a href="/about">About</a> |  
-
-  <a href="/content">Content</a> 
-
-</nav>
+</section>

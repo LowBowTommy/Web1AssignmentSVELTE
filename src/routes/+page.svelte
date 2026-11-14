@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <section class="hero">
     <h1>Welcome to QuoteHub</h1>
 
@@ -36,3 +37,11 @@
     </div>
 
 </section>
+=======
+<h1>Welcome to the Home page!</h1>
+
+<p>
+    Discover interesting quotes, explore different
+    categories and find inspiration.
+</p>
+>>>>>>> 8e843858949fc7867e314c21a054c099d146874f

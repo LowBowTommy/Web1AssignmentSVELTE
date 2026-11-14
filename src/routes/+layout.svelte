@@ -1,6 +1,11 @@
 <script lang="ts">
+<<<<<<< HEAD
     import '../styles/global.css';
     import favicon from '#lib/assets/favicon.svg';
+=======
+    import favicon from '#lib/assets/favicon.svg';
+    import '../styles/global.css';
+>>>>>>> 8e843858949fc7867e314c21a054c099d146874f
     import { page } from '$app/state';
 
     let { children } = $props();
@@ -24,10 +29,18 @@
 </svelte:head>
 
 <div class="title-banner">
+<<<<<<< HEAD
     <h1>{title}</h1>
     <button onclick={myFunction}>
         Toggle dark mode
     </button>
+=======
+    <button onclick={myFunction}>
+        Toggle dark mode
+    </button>
+
+    <h1>{title}</h1>
+>>>>>>> 8e843858949fc7867e314c21a054c099d146874f
 </div>
 
 <nav>

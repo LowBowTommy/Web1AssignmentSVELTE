@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <section class="about-section">
     <h1>About QuoteHub</h1>
 
@@ -36,3 +37,14 @@
         </div>
     </div>
 </section>
+=======
+
+<body>
+  <h1>Welcome to the about page</h1>
+  <p>This website is about quotes</p>
+</body>
+
+<footer>
+Niqolai Utanga Paehua
+</footer>
+>>>>>>> 8e843858949fc7867e314c21a054c099d146874f

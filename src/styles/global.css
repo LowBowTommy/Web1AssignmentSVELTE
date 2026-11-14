@@ -21,6 +21,7 @@ nav a:hover{
     text-decoration: underline;
 }
 h1 {
+<<<<<<< HEAD
     text-align: center;
 }
 .title-banner {
@@ -145,5 +146,37 @@ h2 {
 }
 
 .info-card h2 {
+=======
+>>>>>>> 8e843858949fc7867e314c21a054c099d146874f
     text-align: center;
+}
+.title-banner {
+    background-color: #aaaaaa; /* Changable color affectable on all pages */
+    padding: 30px;
+    text-align: center;
+}
+
+.title-banner h1 {
+    margin: 0;
+    color: rgb(0, 0, 0);
+    font-size: 2.5rem;
+}
+p {
+    text-align: center;
+    font-size: 1.2rem;
+}
+footer{
+    background-color: #aaaaaa;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: 40px 20px;
+    border-top: 40px solid rgb(85, 82, 82);
+
+}
+.dark-mode {
+  background-color: black;
+  color: white;
 }
